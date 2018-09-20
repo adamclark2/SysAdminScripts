@@ -14,7 +14,7 @@ hosts=( "ant.cs.usm.maine.edu"
 );
 outputFile="output.txt"
 
-for host in hosts ${hosts[*]}
+for host in ${hosts[*]}
 do
     echo $1@$host >> $outputFile
     echo --------------------------------------------- >> $outputFile
